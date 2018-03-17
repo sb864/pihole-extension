@@ -16,10 +16,10 @@ $apiKey = "123456789";
 */
 //White
 $whiteListFile = "/etc/pihole/whitelist.txt";
-$whiteListScript = "/usr/local/bin/whitelist.sh";
+$whiteListScript = "/usr/local/bin/pihole -w";
 //Black
 $blackListFile = "/etc/pihole/blacklist.txt";
-$blackListScript = "/usr/local/bin/blacklist.sh";
+$blackListScript = "/usr/local/bin/pihole -b";
 
 $errors = array();
 $data   = array();
